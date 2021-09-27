@@ -1,0 +1,86 @@
+.box {
+    min-height: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 600;
+    font-size: larger;
+    background-color: rgb(12, 187, 178);
+    color: white;
+}
+
+.green {
+    color:rgb(12, 187, 178)
+}
+
+.navbar-brand {
+    background-color: rgb(12, 187, 178);
+    padding: 5px;
+    margin: 5px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.margin-right {
+    margin-right: 20px;
+
+}
+
+h1 {
+    color:rgb(12, 187, 178);
+    font-weight: bold;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    padding: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+p {
+    font-size: larger
+}
+
+.boxbar {
+    border: 1px solid lightgrey;
+    margin: 10px;
+}
+
+.chartsize  {
+    width: 50%;
+    margin-right: 16px;
+}
+body {
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.col-md-12 {
+    background-color: white;
+}
+
+.container {
+    padding: 20px;
+    margin-top: 20px;
+    margin: 20px;
+    align-items: center;
+    align-self: center;
+}
+
+.col-md-8 {
+    background-color:white;
+    padding: 20px;
+}
+
+.col-md-4 {
+    padding: 20px;
+    background-color;
+}
+
+
+@media (max-width: 775px) {
+    body {
+        background-color: white;
+    }
+}

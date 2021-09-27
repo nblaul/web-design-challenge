@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Challenge</title>
+    <!-- Bring in our bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Create Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand text-white" href="index.html">Latitude</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Plots
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
+                            <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                            <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="windspeed.html">Windspeed</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="comparison.html">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Create header-->
+
+        <!--create empty div for line below header -->
+        
+        <!-- Create container for content and image -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Summary: Latitude vs. X</h1>
+                    <div class="boxbar"></div>
+                    <img src="Resources/assets/images/Fig1.png" class="chartsize img-thumbnail col-md-6 float-md-start mb-3 ms-md-3">
+                    <p>
+                    The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analyis, we first pulled data from the OpenWeatherMap API
+                    to assemble a dataset on over 500 cities. 
+                    </p>
+                    <p>
+                        After assembling the dataset, we used Matplotlib to plot various aspects fo the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
+                        This site provieds the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="col-md-12">
+                        <h2 class="green">Visualizations</h2>
+                        <div class="boxbar"></div>
+                        <div class="row">
+                            <div class="col-3 col-md-6">
+                                <a href="maxtemp.html"><img src="Resources/assets/images/Fig1.png" width="100%">
+                                </a>
+                            </div>
+                            <div class="col-3 col-md-6">
+                                <a href="maxtemp.html"><img src="Resources/assets/images/Fig2.png" width="100%">
+                                </a>
+                            </div>
+                            <div class="col-3 col-md-6">
+                                <a href="maxtemp.html"><img src="Resources/assets/images/Fig3.png" width="100%">
+                                </a>
+                            </div>
+                            <div class="col-3 col-md-6">
+                                <a href="maxtemp.html"><img src="Resources/assets/images/Fig4.png" width="100%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sidebar charts -->
+
+
+        </div>
+</body>
+</html>
