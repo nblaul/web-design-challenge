@@ -1,23 +1,23 @@
-.box {
-    min-height: 20px;
-    padding: 5px;
-    margin: 5px;
-    font-weight: 600;
-    font-size: larger;
-    background-color: rgb(12, 187, 178);
-    color: white;
-}
 
 .green {
     color:rgb(12, 187, 178)
 }
 
+#white-text {
+    color: white;
+}
+
 .navbar-brand {
     background-color: rgb(12, 187, 178);
-    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 5px;
     font-weight: 600;
     font-size: larger;
+}
+
+.navbar-nav {
+    margin-left: auto;
 }
 
 .margin-right {
@@ -28,8 +28,7 @@
 h1 {
     color:rgb(12, 187, 178);
     font-weight: bold;
-    padding: 20px 0;
-    margin-bottom: 20px;
+    padding: 20px;
 }
 
 h2 {
@@ -38,8 +37,22 @@ h2 {
     margin: 0px;
 }
 
+h3 {
+    color: rgb(12, 187, 178);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+img {
+    float: left;
+}
+
 p {
-    font-size: larger
+    font-size: medium;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
 }
 
 .boxbar {
@@ -51,6 +64,14 @@ p {
     width: 50%;
     margin-right: 16px;
 }
+
+#chart {
+    display: inline-block;
+    margin: auto;
+    align-self: center;
+}
+
+
 body {
     padding: 10px;
     background-color: lightgrey;
@@ -71,11 +92,17 @@ body {
 .col-md-8 {
     background-color:white;
     padding: 20px;
+    background-clip: content-box;
 }
 
 .col-md-4 {
     padding: 20px;
-    background-color;
+    background-clip: content-box;
+    background-color: white;
+}
+
+.dropdown {
+    float: right;
 }
 
 
@@ -83,4 +110,8 @@ body {
     body {
         background-color: white;
     }
+    nav {
+        background-color: rgb(12, 187, 178);
+    }
+
 }
