@@ -105,12 +105,38 @@ body {
     float: right;
 }
 
+.dataframe {
+    background-color: white;
+}
+
+
+
+.table-wrapper {
+    max-height: 500px;
+    overflow: auto;
+    display: inline-block;
+}
+
 
 @media (max-width: 775px) {
     body {
         background-color: white;
     }
     nav {
+        background-color: rgb(12, 187, 178);
+        color: rgb(12, 187, 178);
+    }
+    .bg-light {
+        background-color: rgb(12, 187, 178);
+        color: rgb(12, 187, 178);
+    }
+    .table-wrapper {
+        max-height: 250px;
+        overflow: auto;
+        display: inline-block;
+    }
+
+    .navbar-custom .navbar-brand {
         background-color: rgb(12, 187, 178);
     }
 
